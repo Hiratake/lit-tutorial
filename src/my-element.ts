@@ -2,7 +2,7 @@ import { LitElement, html } from "lit";
 import { customElement, property } from "lit/decorators.js";
 
 @customElement("my-element")
-class MyElement extends LitElement {
+export class MyElement extends LitElement {
   // Add a reactive property
   @property()
   message: string = "Hello again.";
